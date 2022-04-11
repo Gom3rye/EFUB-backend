@@ -19,8 +19,6 @@ https://app.diagrams.net/#G1diV7tYx7HdIT78aLCRUKs6wp-HoRq-4S
 ##### SWS 테이블 생성 코드
 
 ```
-SWS 테이블 생성 코드
-
 CREATE TABLE sws (
     sws_id BIGINT NOT NULL AUTO_INCREMENT,
     team_name VARCHAR(45),
