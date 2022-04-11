@@ -1,16 +1,16 @@
 # EFUB-backend
 # EFUB 4주차 세미나 과제
 
-###### {프백인턴} {김명지}
+###### 프백인턴 김명지
 
 
 
 ### 01. 학사 정보 관리 ERD
 
-[https://app.diagrams.net/#G1diV7tYx7HdIT78aLCRUKs6wp-HoRq-4S]
+https://app.diagrams.net/#G1diV7tYx7HdIT78aLCRUKs6wp-HoRq-4S
 
-[![image](https://user-images.githubusercontent.com/88931238/162757102-e9f704df-da58-4b62-8a62-2634d7b7091d.png)
-]
+![image](https://user-images.githubusercontent.com/88931238/162757102-e9f704df-da58-4b62-8a62-2634d7b7091d.png)
+
 
 
 
@@ -39,11 +39,11 @@ INSERT INTO sws(team_name) VALUES
 ```
 JOIN 코드
 
-Select member.team_number, sws.team_name,  member.name, member.position, member.email FROM member JOIN sws ON member.team_number = sws.sws_id
+Select member.team_number, sws.team_name,  member.name, member.position, member.email
+FROM member JOIN sws ON member.team_number = sws.sws_id
 ```
 
 
 ##### JOIN 출력 결과
 
-[![image](https://user-images.githubusercontent.com/88931238/162767135-a50984c8-ef9b-462d-8d19-6e17553539cb.png)
-]
+![image](https://user-images.githubusercontent.com/88931238/162767135-a50984c8-ef9b-462d-8d19-6e17553539cb.png)
