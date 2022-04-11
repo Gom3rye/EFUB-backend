@@ -35,8 +35,6 @@ INSERT INTO sws(team_name) VALUES
 ##### JOIN 코드
 
 ```
-JOIN 코드
-
 Select member.team_number, sws.team_name,  member.name, member.position, member.email
 FROM member JOIN sws ON member.team_number = sws.sws_id
 ```
